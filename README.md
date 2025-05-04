@@ -6,7 +6,7 @@ This documentation covers the usage and features of the `setup.sh` script, desig
 
 The Chezmoi Setup Script provides an interactive and guided approach to setting up chezmoi for dotfile management on Windows, macOS, and Linux. It handles installation, repository setup, file management, and configuration in a user-friendly way.
 
-![Chezmoi Logo](https://www.myqnap.org/wp-content/uploads/chezmoi-logo-100x100.png)
+# ![chezmoi logo](assets/images/logo-144px.png) chezmoi
 
 ## Features
 
