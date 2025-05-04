@@ -1,6 +1,6 @@
 # Chezmoi Setup Script Documentation
 
-This documentation covers the usage and features of the `setup.sh` script, designed to automate the installation and configuration of [chezmoi](https://www.chezmoi.io/) across different operating systems.
+This documentation covers the usage and features of the `bootstrap.sh` script, designed to automate the installation and configuration of [chezmoi](https://www.chezmoi.io/) across different operating systems.
 
 ## Overview
 
@@ -32,19 +32,19 @@ The Chezmoi Setup Script provides an interactive and guided approach to setting 
 1. Download the script:
 
 ```bash
-curl -o setup.sh https://raw.githubusercontent.com/yourusername/yourrepository/main/setup.sh
+curl -o bootstrap.sh https://raw.githubusercontent.com/geiltonxavier/ChezmoiSetup/main/bootstrap.sh
 ```
 
 2. Make it executable:
 
 ```bash
-chmod +x setup.sh
+chmod +x bootstrap.sh
 ```
 
 3. Run the script:
 
 ```bash
-./setup.sh
+./bootstrap.sh
 ```
 
 ## Usage Guide
@@ -135,8 +135,8 @@ After setup, you can use these common chezmoi commands:
 ### Common Issues
 
 1. **Script execution errors**:
-   - Ensure the script has execute permissions (`chmod +x setup.sh`)
-   - Use bash explicitly if needed (`bash setup.sh`)
+   - Ensure the script has execute permissions (`chmod +x bootstrap.sh`)
+   - Use bash explicitly if needed (`bash bootstrap.sh`)
 
 2. **Installation failures**:
    - Check your internet connection
